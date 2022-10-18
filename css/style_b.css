@@ -1,0 +1,85 @@
+/*importación de fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,200;1,800;1,900&display=swap');
+
+html {
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    min-height: 100vh;
+    
+  }
+
+header{
+    background: linear-gradient(to left,#0c6e80,#069297,#4ff378,#8bc408);
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+footer{
+    background: linear-gradient(to left,#0c6e80,#069297,#4ff378,#8bc408);
+}
+#logo{
+    width: 8em;
+    height: 8em;
+    border-radius: 30%;
+    animation-name: pulse;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+#micro{
+    width: 18em;
+    height: 25em;
+    border-radius: 30%;
+    animation-name: backInLeft;
+    animation-duration:2s;
+    animation-iteration-count: initial;
+}
+#publicidad1{
+    animation-name: backInLeft;
+    animation-duration:2s;
+    animation-iteration-count: initial;
+}
+#publicidad2{
+    animation-name: backInUp;
+    animation-duration:2s;
+    animation-iteration-count: initial;
+}
+#publicidad3{
+    animation-name: backInRight;
+    animation-duration:2s;
+    animation-iteration-count: initial;
+}
+.powerby{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    background-color: black ;
+}
+
+
+
+@media screen and (min-width: 551px) and (max-width: 1200px) {
+   
+    #micro{
+        width: 20rem;
+        height: 30rem;
+    }
+    .clima{
+        display: none;
+    }
+  
+}
+@media screen and (max-width: 550px) {
+    #micro{
+        display:none;
+    }
+    .clima{
+        display: none;
+    }
+}
+

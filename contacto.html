@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="EI-edge">
+    <meta name="viewport" content="width=device-witdth, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script src="./bootstrap/js/jquery.slim.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/style_b.css">
+    <link rel="stylesheet" href="./sass/index.css">
+
+    <title>Radio Fm Terra - Río Grande - Tierra del Fuego</title>
+    <link rel="shortcut icon" href="./imagenes/logoradio.ico">
+    <meta name="description" content="Este es el sitio web de la radio FM Terra 93.3">
+    <meta name="keywords"  content="MÚSICA, 93.3, FM, RIO GRANDE, ROCK NACIONAL, METAL">
+</head>
+<body>
+ <header>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-4 col-md-4 col-lg-4 col-xl-2">
+                <img id="logo" src="./imagenes/fmterra1.jpeg" class="img-thumbnail" alt="Responsive image">
+            </div>
+            <div class="col-8">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>   
+                    <a class="navbar-brand" href="#!">FM Terra</a>                           
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                      <ul class="navbar-nav justify-content-around box_nav">
+                          <li class="nav-item" data-toggle="tooltip" data-placement="nav-item" title="Ir a inicio">
+                              <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
+                          </li>
+                          <li class="nav-item" data-toggle="tooltip" data-placement="nav-item" title="Algo de nosotros">
+                              <a class="nav-link" href="quienes.html">Nosotros</a>
+                          </li>
+                          <li class="nav-item" data-toggle="tooltip" data-placement="nav-item" title="Noticias musicales">
+                              <a class="nav-link" href="noticias.html">Noticias</a>
+                          </li>
+                          <li class="nav-item" data-toggle="tooltip" data-placement="nav-item" title="Nuestra programación musical">
+                              <a class="nav-link" href="programacion.html">Programación</a>
+                          </li>
+                          <li class="nav-item" data-toggle="tooltip" data-placement="nav-item" title="Historia de la banda elegida del mes">
+                              <a class="nav-link" href="banda_mes.html">Banda destacada</a>
+                          </li>
+                          <li class="nav-item active" data-toggle="tooltip" data-placement="nav-item" title="Dejanos tu mensaje">
+                              <a class="nav-link" href="contacto.html">Contacto</a>
+                          </li>
+                          <li class="nav-item" data-toggle="tooltip" data-placement="nav-item" title="Dejanos tu mensaje">
+                            <a class="nav-link" href="administracion.html">Administración</a>
+                        </li>
+                      </ul>
+                  </div>
+                </nav>
+            </div>
+
+            
+            <div class="col-4 col-md-4 col-lg-4 col-xl-2 mb-2">
+                <!-- weather widget start --><a class="clima" target="_blank" href="https://hotelmix.es/weather/rio-grande-41434"><img src="https://w.bookcdn.com/weather/picture/23_41434_1_4_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=2&domid=582&anc_id=99149"  alt="booked.net"/></a><!-- weather widget end -->
+            </div>
+        </div>
+    </div>
+</header>
+<section class="container">
+  <div class="row justify-content-center align-items-center uno">
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
+      <img id="micro" src="./imagenes/vj-radio-microphone.png" class="img-fluid" alt="Responsive image">
+    </div>
+    <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 cuatro">
+      <form class="mt-5 mb-5">
+        <div class="form-group">
+          <label for="formGroupExampleInput">Asunto</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="asunto">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Nombre</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escribí tu nombre">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@gmail.com">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Mensaje</label>
+          <textarea class="form-control" id="formGroupExampleInput" placeholder="Escribí tu nombre" rows="5" cols="40"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-dark">Enviar mensaje</button>
+          <button type="camcel" class="btn btn-cancel">Cancelar</button>
+          <button type="cancel" class="btn btn-secondary">Limpiar</button>
+       </div>
+
+      </form>
+    </div>
+  </div>
+</section>
+  <footer>
+    <section class="container-fluid">
+         <div class="row justify-content-center align-items-center">
+            <div class="d-flex flex-row">
+              <div class="p-2"><a href="https://mail.google.com/mail/" target="_parent"><img class="mail" src="./imagenes/email.ico" alt="fmterra@gmail.com"></a></div>
+                        <div class="p-2"><a href="https://api.whatsapp.com/send?phone=5492964695505" target="_parent"><img class="whatsapp" src="./imagenes/Whatsapp.ico" alt="Whatsapp"></a></div>
+                        <div class="p-2"><a href="https://www.facebook.com/profile.php?id=100079628228551" target="_parent"><img class="facebook" src="./imagenes/facebook.ico" alt="escuchafmterra"></a></div>
+                        <div class="p-2"><a href="https://www.Instagram.com" target="_parent"><img class="instagram" src="./imagenes/Instagram.ico" alt="@escuchafmterra"></a></div>
+                        <div class="p-2"><a href="https://www.youtube.com" target="_parent"><img class="youtube" src="./imagenes/youtube.ico" alt="Canal FM Terra"></a> </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12"> 
+                <p class="text-center font-italic">Radio FM Terra 93.3 - Río Grande - Tierra del Fuego - Argentina - <a class="top" href="#top"><img src="./imagenes/up-arrows.ico" alt="escuchafmterra"></a></p>
+                <p class="text-center font-italic powerby"><a href="https://www.google.com/">Desarrollado por Code Style </a></p>
+              </div>
+        </div>
+    </section>
+</footer>
+
+</div>
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "fecha": "29/09/2022",
+        "horaI": "12:00",
+        "horaF": "14:00",
+        "disponibilidad": "Libre"
+    },
+    {
+        "id": 2,
+        "fecha": "29/09/2022",
+        "horaI": "14:00",
+        "horaF": "16:00",
+        "disponibilidad": "Libre"
+    },
+    {
+        "id": 3,
+        "fecha": "29/09/2022",
+        "horaI": "16:00",
+        "horaF": "18:00",
+        "disponibilidad": "Libre"
+    },
+    {
+        "id": 4,
+        "fecha": "29/09/2022",
+        "horaI": "18:00",
+        "horaF": "20:00",
+        "disponibilidad": "Libre"
+    },
+    {
+        "id": 5,
+        "fecha": "29/09/2022",
+        "horaI": "20:00",
+        "horaF": "22:00",
+        "disponibilidad": "Libre"
+    }
+]
